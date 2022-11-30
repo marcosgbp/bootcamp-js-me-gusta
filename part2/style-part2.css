@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: black;
+    color: white;
+    margin: 0 200px 0 200px;
+}
+nav h1{
+    margin-left: 20px;
+}
+main{
+    display: flex;
+    margin: 0 200px 0 200px;
+    width: auto;
+}
+.sub-title{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+/*btn like all card*/
+.btn-like{
+    width: 60px;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+/*Columna 1 - Card Perfil*/
+.card-perfil{
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 200px;
+}
+.avatar-user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.card-perfil-header{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+.card-perfil-body{
+    margin: 10px;
+    text-align: center;
+}
+/*Columna 2 - Card Article*/
+section{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+.card-art{
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 150px;
+}
+.card-art-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.card-art-body {
+    margin: 10px;
+}

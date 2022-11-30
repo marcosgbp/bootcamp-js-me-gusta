@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.card-body{
+    margin: 30px;
+}
+.btn-like{
+    width: 60px;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}

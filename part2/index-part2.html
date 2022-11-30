@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-part2.css">
+    <title>Me gusta part 2</title>
+</head>
+
+<body>
+    <!--Barra de navegación-->
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <!--Cuerpo-->
+    <h2 class="sub-title">Your Feed</h2>
+    <main>
+        <!--Column-left-->
+        <div class="card-perfil">
+            <div class="card-perfil-header">
+                <img class="avatar-user" src="img/user.png" alt="picture-perfil">
+                <a href="#">Add on avatar</a>
+            </div>
+            <div class="card-perfil-body">
+                <h3>Marcos Benítez</h3>
+            </div>
+        </div>
+        <!--Column-right-->
+        <section>
+            <div class="card-art">
+                <div class="card-art-header">
+                    <h2>Neil M</h2>
+                    <p><span id="count-like-1">9</span> like(s)</p>
+                    <button class="btn-like" id="btn-like-1" onclick="incrementLike(this)">Like</button>
+                </div>
+                <div class="card-art-body">
+                    <p>
+                        I just set up this new discord bot, let me know what you all think <a href="#">link</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-art">
+                <div class="card-art-header">
+                    <h2>Nichole K</h2>
+                    <p><span id="count-like-2">9</span> like(s)</p>
+                    <button class="btn-like" id="btn-like-2" onclick="incrementLike(this)">Like</button>
+                </div>
+                <div class="card-art-body">
+                    <p>
+                        Just finished my <a href="#">next comic</a> check it out.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-art">
+                <div class="card-art-header">
+                    <h2>Jim R</h2>
+                    <p><span id="count-like-3">9</span> like(s)</p>
+                    <button class="btn-like" id="btn-like-3" onclick="incrementLike(this)">Like</button>
+                </div>
+                <div class="card-art-body">
+                    <p>
+                        I can't stop listening to the <a href="#">new albun</a> Who else is liking it?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+<script src="index-part2.js"></script>
+</body>
+
+</html>
